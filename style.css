@@ -195,3 +195,13 @@ hero {
     border: 4px solid #F9FAF8;
     border-radius: 8px;
 }
+
+/*Footer*/
+
+footer {
+    padding: 20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 20px;
+    text-align: center;
+}
