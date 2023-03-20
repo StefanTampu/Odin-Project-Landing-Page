@@ -6,3 +6,23 @@ body {
     justify-content: space-between;
 }
 
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 18px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-links {
+    font-size: 18px;
+    color: #F9FAF8; 
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
