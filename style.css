@@ -118,3 +118,31 @@ hero {
     width: 160px;
     height: 160px;
 }
+
+/*Quote Section*/
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 36px;
+}
+
+.quote-container {
+    margin: auto;
+    width: 40%;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-container p {
+    text-align: right;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
