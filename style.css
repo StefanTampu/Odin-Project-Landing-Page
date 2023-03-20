@@ -27,6 +27,8 @@ header {
     gap: 18px;
 }
 
+/*Hero Section*/
+
 hero {
     background-color: #1F2937;
     display: flex;
@@ -78,3 +80,41 @@ hero {
 }
 
 /*Info Section*/
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    text-align: center;
+    color: hsla(0,0%,20%,1);
+    font-size: 16px;
+}
+
+.info-img {
+    border: 2px solid #3882F6;
+    border-radius: 16px;
+    width: 160px;
+    height: 160px;
+}
